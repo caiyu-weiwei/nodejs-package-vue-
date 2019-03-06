@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <cy-switch v-model="switchValue" @change="handleChange"></cy-switch>开关：
+    <!-- <cy-switch v-model="switchValue" @change="handleChange"></cy-switch>开关： -->
   </div>
 </template>
 
