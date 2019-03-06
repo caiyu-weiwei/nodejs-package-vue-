@@ -6,9 +6,24 @@
   </head>
   <body>
     <div id="app">
-      <Cy-switch>不知道：</Cy-switch>
+      <cy-switch v-model="lightSwitch" @change="handleChange"></cy-switch>不知道：
     </div>
     <script src="./node_modules/vue/dist/vue.js"></script>
     <script src="/dist/cySwitch.js"></script>
+    <script>
+      new Vue({
+        el: '#app',
+        data() {
+          return {
+            lightSwitch: false
+          }
+        },
+        methods: {
+          handleChange () {
+            console.log('lightSwitch', this.lightSwitch)
+          }
+        }
+      })
+    </script>
   </body>
 </html>

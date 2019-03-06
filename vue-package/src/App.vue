@@ -1,26 +1,11 @@
 <template>
   <div id="app">
-    <!-- <cy-switch v-model="switchValue" @change="handleChange"></cy-switch>开关： -->
   </div>
 </template>
 
 <script>
-import cySwitch from './packages/switch/cy-switch'
 export default {
-  name: 'app',
-  data () {
-    return {
-      switchValue: false
-    }
-  },
-  components: {
-    cySwitch
-  },
-  methods: {
-    handleChange () {
-      console.log('switchValue', this.switchValue)
-    }
-  }
+  name: 'app'
 }
 </script>
 
