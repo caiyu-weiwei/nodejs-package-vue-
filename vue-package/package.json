@@ -1,7 +1,7 @@
 {
-  "name": "vue-package",
+  "name": "cy-package",
   "description": "a Vue.js package",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "weiwei.cai@zhangmen.com <weiwei.cai@zhangmen.com>",
   "license": "MIT",
   "private": false,

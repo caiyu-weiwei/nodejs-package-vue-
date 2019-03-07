@@ -1,11 +1,17 @@
 <template>
   <div id="app">
+    <cy-switch v-model="lightSwitch">开关：</cy-switch>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data() {
+    return {
+      lightSwitch: true
+    }
+  }
 }
 </script>
 
