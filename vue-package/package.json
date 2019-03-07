@@ -1,8 +1,8 @@
 {
   "name": "cy-package",
   "description": "a Vue.js package",
-  "version": "1.2.0",
-  "author": "weiwei.cai@zhangmen.com <weiwei.cai@zhangmen.com>",
+  "version": "1.2.1",
+  "author": "cy",
   "license": "MIT",
   "private": false,
   "main": "dist/cySwitch.js",
