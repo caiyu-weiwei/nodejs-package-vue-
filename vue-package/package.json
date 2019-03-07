@@ -1,7 +1,7 @@
 {
   "name": "cy-package",
   "description": "a Vue.js package",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "author": "cy",
   "license": "MIT",
   "private": false,

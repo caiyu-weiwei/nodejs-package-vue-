@@ -14,6 +14,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  cySwitch,
+  CySwitch,
   install
 }
