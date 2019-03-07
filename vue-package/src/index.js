@@ -1,6 +1,6 @@
-import cySwitch from './packages/switch/index'
+import CySwitch from './packages/switch/index'
 const components = [
-  cySwitch
+  CySwitch
 ]
 const install = function (Vue, opts={}) {
   components.map(component => {

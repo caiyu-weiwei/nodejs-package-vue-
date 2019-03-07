@@ -1,3 +1,3 @@
-import cySwitch from './cy-switch'
-cySwitch.install = Vue => Vue.component(cySwitch.name, cySwitch)
-export default cySwitch
+import CySwitch from './cy-switch'
+CySwitch.install = Vue => Vue.component(CySwitch.name, cySwitch)
+export default CySwitch

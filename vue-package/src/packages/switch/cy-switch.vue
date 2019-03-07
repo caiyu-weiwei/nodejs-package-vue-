@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'cySwitch',
+  name: 'CySwitch',
   data() {
     return {}
   },
@@ -48,11 +48,7 @@ export default {
     }
   },
   methods: {
-    handleClick(value) {
-      console.log('handleClick value', value)
-      // this.$emit('input', !this.checked ? this.activeValue : this.inactiveValue)
-    },
-    handleChange() {
+    handleChange(value) {
       console.log('handleChange value', value)
       this.$emit('input', !this.checked ? this.activeValue : this.inactiveValue)
     }
